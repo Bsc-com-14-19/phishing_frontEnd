@@ -1,0 +1,130 @@
+.container{
+    background-color: #303030;
+    color: #fff;
+
+}
+
+form {
+    background-color: rgba(68,67,67);
+    margin-top: 20vh;
+    width: 100%;
+    max-width: 260px;
+    padding: 0px 50px 20px 20px;
+    /* color: #fff; */
+    box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.5);
+    /* border-radius: 5px;    */
+}
+form h1{
+    align-items: left;
+    /* margin-top: 15px; */
+    /* letter-spacing: 0.5px; */
+    font-weight: lighter;
+    padding-right: 80%;
+}
+form h2{
+    margin-top: 15px;
+    letter-spacing: 0.5px;
+    font-weight: lighter;
+}
+form h3{
+    margin-top: 5px;
+    color: #558b2f;
+    letter-spacing: 0.5px;
+    align-items: center;
+}
+form h6{
+    margin-top: 5px;
+    color: #558b2f;
+    letter-spacing: 0.5px;
+}
+.not-yet-customer{
+    margin-top: 5px;
+    color: #558b2f;
+    letter-spacing: 0.5px;  
+}
+.btn-with-google{
+    margin-top: 5px;
+    color: #558b2f;
+    letter-spacing: 0.5px;
+    align-items: center;
+}
+
+form .input-group {
+    position: relative;
+    margin-top: 15px;
+    background-color:rgba(68,67,67) ;
+   
+}
+
+form .input-group input {
+    color:white;
+    width: 100%;
+    padding: 20px 10px 10px;
+    font-size: 1rem;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+    /* border-collapse: none; */
+    outline:none;
+    background-color:rgba(68,67,67)!important;
+    /* color: inherit; */
+    flex-direction: column;
+    border-radius: 5px;
+    border-color: rgb(255, 255, 255);
+    border-width: 1px;
+    border-top-style: outset;
+    border-left-style: outset;
+    /* text-decoration-color: white; */
+}
+
+form .input-group label {
+    position: absolute;
+    top: 12px;
+    left: 6px;
+    padding: 1px 3px;
+    font-size: 1rem;
+    pointer-events: none;
+    transition: .3s ease-out;
+    background-color: rgba(68,67,67);
+   /* background-clip: padding-box; */
+}
+
+form .input-group input:focus+label,
+form .input-group input:valid+label {
+    transform: translateX(8px) translateY(-23px);
+    transition-duration: 100ms;
+    /* color:white; */
+    font-size: .8rem;
+}
+form .input-group input:focus{
+    border-color: green;
+    border-width: 2px;
+    background-color: rgba(68,67,67) ;
+}
+form .input-group input:hover{
+    border-width: 2px;
+    background-color: rgba(68,67,67) ;
+}
+  .btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 10px 10px;
+    
+}
+.btn button{
+    background-color: rgb(255, 255, 255, 0.12);
+    color: rgb(255, 255, 255, 0.3);
+    border-radius: 5px;
+    text-align: center;
+    border: none;
+    padding: 10px 75px;
+    max-width: 260px;
+    font-size: medium;
+}
+.btn-with-google{
+    /* background-color: green; */
+    align-items: center;
+    background-color: green;
+
+}

@@ -1,0 +1,56 @@
+.Navigation{
+   background-color: #546e7a;
+   position: absolute;
+   top: 0%;
+   z-index: 99;
+   width: 100%;
+   color: white;
+   display: flex;
+   align-items: center;
+   text-align: center;
+   justify-content: space-between;
+
+}
+.Navigation .logos{
+   display: flex;
+   align-items: center;
+   text-align: center;
+   gap: 10px;
+}
+.Navigation nav{
+   display: flex;
+   align-items: center;
+   text-align: center;
+gap:16px;
+margin-right: 20px;
+
+}
+.Navigation nav a{
+   color:rgba(255, 255, 255, 0.788);
+   text-decoration: none;
+
+}
+.Navigation button{
+   background-color:#546e7a;
+   border: none;
+   height:60px;
+   width: 60px;
+}
+.Navigation .far{
+   color: rgba(255, 255, 255, 0.932);
+   height:20px;
+   width: 20px;
+  
+}
+.Navigation .logo{
+   height:60px;
+   width:60px;
+}
+ .Navigation .Logoword{
+   width: auto;
+   color: rgb(228, 233, 238);
+   font-weight: 600;
+
+
+}
+
